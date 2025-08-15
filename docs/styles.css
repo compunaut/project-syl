@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header .hero {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+article {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+article img {
+  width: 150px;
+  height: auto;
+}
+.pagination {
+  text-align: center;
+  margin-top: 1rem;
+}
